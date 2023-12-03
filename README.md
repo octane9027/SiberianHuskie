@@ -31,7 +31,7 @@ All error handling is handled serverside and input validations are conducted eac
 
 ## Endpoints
 
-### 1. Endpoint Name
+### 1.
 #### `GET /Inventory/GetInventory`
 
 **Description:**
@@ -59,7 +59,7 @@ route returns an array of json objects sorted by ID. A valid response is an empt
 localhost:4567/Inventory/GetInventory
 
 
-### 2. Endpoint Name
+### 2. 
 #### `GET /Inventory/Items`
 
 **Description:**
@@ -84,7 +84,7 @@ route returns an array of json objects sorted by ID. A valid response is an empt
 **Request:**
 http GET localhost:4567/Inventory/Items
 
-### 3. Endpoint Name
+### 3. 
 #### `GET /Inventory/GetOutOfStock`
 
 **Description:**
@@ -111,7 +111,7 @@ route returns an array of json objects sorted by ID. A valid response is an empt
 http GET localhost:4567/Inventory/GetOverStock
 
 
-### 4. Endpoint Name
+### 4. 
 #### `GET /Inventory/GetOverStock`
 
 **Description:**
@@ -140,7 +140,7 @@ http GET localhost:4567/Inventory/GetOverStock
 
 
 
-### 5. Endpoint Name
+### 5. 
 #### `GET /Inventory/GetLowStock`
 
 **Description:**
@@ -168,7 +168,7 @@ http GET localhost:4567/Inventory/GetLowStock
 
 
 
-### 6. Endpoint Name
+### 6.
 #### `GET /Inventory/:id`
 
 **Description:**
@@ -197,7 +197,7 @@ http GET localhost:4567/Inventory/1
 
 
 
-### 7. Endpoint Name
+### 7. 
 #### `GET /Distributor/GetAllDistributors`
 
 **Description:**
@@ -230,7 +230,7 @@ http GET localhost:4567/Distributor/GetAllDistributors
 
 
 
-### 8. Endpoint Name
+### 8. 
 #### `GET /Distributor/items/:id`
 
 **Description:**
@@ -259,7 +259,7 @@ http GET localhost:4567//Distributor/items/2
 
 
 
-### 9. Endpoint Name
+### 9. 
 #### `GET /Distributor/Distributor/:id`
 
 **Description:**
@@ -287,7 +287,7 @@ route returns an array of json objects sorted by ID. A valid response is an empt
 http GET localhost:4567//Distributor/items/2
 
 
-### 9. Endpoint Name
+### 10. 
 #### `POST /Inventory/addItem`
 
 **Description:**
@@ -312,7 +312,7 @@ http POST localhost:4567/Inventory/addItem
 
 
 
-### 9. Endpoint Name
+### 11. 
 #### `POST /Inventory/addItem`
 
 **Description:**
@@ -335,7 +335,7 @@ http POST localhost:4567/item/add
 
 
 
-### 10. Endpoint Name
+### 12. 
 #### `POST /Inventory/addItem`
 
 **Description:**
@@ -360,7 +360,7 @@ http POST localhost:4567/item/add
 
 
 
-### 11. Endpoint Name
+### 13. 
 #### `PUT /Inventory/UpdateItem`
 
 **Description:**
@@ -385,7 +385,7 @@ http PUT localhost:4567/Inventory/UpdateItem
 
 
 
-### 12. Endpoint Name
+### 14. 
 #### `POST /Distributor/addDistributor`
 
 **Description:**
@@ -406,7 +406,7 @@ http POST localhost:4567/Distributor/addDistributor
 
 
 
-### 13. Endpoint Name
+### 15.
 #### `POST /Distributor/addToCatalouge`
 
 **Description:**
@@ -427,7 +427,7 @@ Route Will return an OK that the item was successfully update in the database
 http POST localhost:4567/Distributor/addToCatalouge
 
 
-### 14. Endpoint Name
+### 16. 
 #### `PUT /Distributor/UpdatePrice`
 
 **Description:**
@@ -448,7 +448,7 @@ Route Will return an OK that the item was successfully update in the database
 **Request:**
 http PUT localhost:4567/Distributor/UpdatePrice
 
-### 15. Endpoint Name
+### 17. 
 #### `DELETE /Distributor/DeleteDistributor/:id`
 
 **Description:**
@@ -467,7 +467,7 @@ Route Will return an OK that the item was successfully update in the database
 http PUT localhost:4567/Distributor/DeleteDistributor/:id
 
 
-### 16. Endpoint Name
+### 18. 
 #### `DELETE /Item/DeleteItem/:id`
 
 **Description:**
@@ -487,7 +487,7 @@ http PUT localhost:4567/Distributor/DeleteDistributor/:id
 
 
 
-### 16. Endpoint Name
+### 19. 
 #### `GET /Item/DeleteItem/:id`
 
 **Description:**
